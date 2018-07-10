@@ -1,0 +1,113 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE HTML>
+<html>
+<head>
+<title>Professory-UnderConstruction Website Template | Home :: W3layouts</title>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<link rel="stylesheet" href="css/errorpage.css" media="all" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Audiowide' rel='stylesheet' type='text/css'>
+<script type="text/javascript" language="javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript">
+$(document).ready(function(){
+	var theDaysBox  = $("#numdays");
+	var theHoursBox = $("#numhours");
+	var theMinsBox  = $("#nummins");
+	var theSecsBox  = $("#numsecs");
+	
+	var refreshId = setInterval(function() {
+	  var currentSeconds = theSecsBox.text();
+	  var currentMins    = theMinsBox.text();
+	  var currentHours   = theHoursBox.text();
+	  var currentDays    = theDaysBox.text();
+	  
+	  if(currentSeconds == 0 && currentMins == 0 && currentHours == 0 && currentDays == 0) {
+	  	// if everything rusn out our timer is done!!
+	  	// do some exciting code in here when your countdown timer finishes
+	  	
+	  } else if(currentSeconds == 0 && currentMins == 0 && currentHours == 0) {
+	  	// if the seconds and minutes and hours run out we subtract 1 day
+	  	theDaysBox.html(currentDays-1);
+	  	theHoursBox.html("23");
+	  	theMinsBox.html("59");
+	  	theSecsBox.html("59");
+	  } else if(currentSeconds == 0 && currentMins == 0) {
+	  	// if the seconds and minutes run out we need to subtract 1 hour
+	  	theHoursBox.html(currentHours-1);
+	  	theMinsBox.html("59");
+	  	theSecsBox.html("59");
+	  } else if(currentSeconds == 0) {
+	  	// if the seconds run out we need to subtract 1 minute
+	  	theMinsBox.html(currentMins-1);
+	  	theSecsBox.html("59");
+	  } else {
+      	theSecsBox.html(currentSeconds-1);
+      }
+   }, 1000);
+});
+</script>
+</head>
+<body>
+<div class="wrap">
+	<h1>Saundrya-Beauty-Palour</h1>
+<div class="main">
+	<h2>our website is on progressive</h2>
+	<div class="banner">
+		<img src="img/error/banner.png" alt="" />
+	</div>
+	<div class="text">
+		<h3>Will' be here soon with a new website,&nbsp;<span>Estimated time remaining...!</span></h3>
+		<div class	="clock-ticker" class="clearfix">
+			<div class="block">
+				<span class="flip-top" id="numdays">8</span>
+				<span class="flip-btm"></span>
+				<footer class="label">Days</footer>
+			</div>
+			<div class="block">
+				<span class="flip-top" id="numhours">14</span>
+				<span class="flip-btm"></span>
+				<footer class="label">Hours</footer>
+			</div>
+			<div class="block">
+				<span class="flip-top" id="nummins">34</span>
+				<span class="flip-btm"></span>
+				<footer class="label">Mins</footer>
+			</div>
+			<div class="block">
+				<span class="flip-top" id="numsecs">9</span>
+				<span class="flip-btm"></span>
+				<footer class="label">Secs</footer>
+			</div>
+		</div>
+			<form class="searchbox">
+	    <input class="search" type="text" placeholder="">
+	    <input class="submit" type="submit" value="Notify" >
+	</form>
+	</div>
+	<div class="clear"></div>
+	<div class="content">
+	<div class="icons">
+		<p class="left">follow us:</p>
+	<ul class="left">
+		<li><a href="#"><img src="img/error/rss.png" alt="" /></a></li>
+		<li><a href="#"><img src="img/error/twt.png" alt="" /></a></li>
+		<li><a href="#"><img src="img/error/plus.png" alt="" /></a></li>
+		<li><a href="#"><img src="img/error/in.png" alt="" /></a></li>
+		<li><a href="#"><img src="img/error/fb.png" alt="" /></a></li>
+	</ul>
+		<div class="clear"></div>
+	</div>
+	<div class="clear"></div>
+	</div>
+</div>
+<div class="footer">
+</div>
+</div>
+</body>
+</html>
+
