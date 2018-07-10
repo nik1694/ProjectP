@@ -249,13 +249,22 @@
             <h2 class="section-heading">Let's Get In Touch!</h2>
             <hr class="my-4">
             <p class="mb-5">Saundrya Beauty Care was founded by Pranjali Holey, whose knowledge of the international beauty industry pioneered a new era in the hair and beauty care industry in India.</p>
+
           </div>
         </div>
         <div class="row">
           <div class="col-lg-4 ml-auto text-center">
+            <i class="fa fa-home fa-3x mb-3 sr-contact"></i>
+            <p>97, Kakkad Leyout,<br> Behind Hariom Coloney,<br>Sai Nagar,<br> Amravati, 444607</p>
+          </div>
+
+          <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
             <p>+91 -7773911985</p>
           </div>
+
+
+
           <div class="col-lg-4 mr-auto text-center">
             <i class="fa fa-envelope-o fa-3x mb-3 sr-contact"></i>
             <p>
