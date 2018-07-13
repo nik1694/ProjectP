@@ -13,6 +13,9 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+
+    <link rel="icon" href="http://example.com/favicon.png">
+
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
@@ -270,6 +273,7 @@
             <p>
               <a href="mailto:your-email@your-domain.com">nplife1627@gmail.com</a>
             </p>
+            <!-- End Google Tag Manager -->
           </div>
         </div>
       </div>
