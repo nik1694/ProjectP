@@ -2,7 +2,7 @@
 
 session_start();
 
-
+include 'php/thanks.php';
 
 
 $con =mysqli_connect('localhost','root');
