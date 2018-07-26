@@ -26,7 +26,7 @@ $cfeed= $_POST['cfeedback'];
 
 $q= "insert into feedback (cname,cemail,cphone,cfeedback) values ('$cnm','$cem','$cpno','$cfeed')";
 mysqli_query($con,$q);
-header('location:thanks.php');
+header('location:../View/thanks.php');
 
 //header('location:index.php');
 

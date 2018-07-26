@@ -1,246 +1,589 @@
+
+
+
+
+
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Services</title>
-
-    <!-- Bootstrap -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-    <link href="css/animate.css" rel="stylesheet">
-    <link href="css/style.css" rel="stylesheet">
-    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
-    <![endif]-->
+    <title></title>
 </head>
-<body class="no-bg">
-    <nav class="navbar navbar-default navbar-fixed-top">
-        <div class="container">
-            <div class="navbar-header">
-                <button aria-controls="navbar" aria-expanded="false" data-target="#navbar" data-toggle="collapse" class="navbar-toggle collapsed" type="button">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a href="index.html" class="navbar-brand"><img src="images/inner-logo.png" /></a>
-            </div>
-            <div class="navbar-collapse collapse" id="navbar">
-                
-                <ul class="nav navbar-nav navbar-right">
-                    <li><a href="index.html">Home</a></li>
-                    <li class="dropdown">
-                        <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown disable" class="dropdown-toggle" href="#">About Us<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="about-papillon.html">About Papillon</a></li>
-                            <li><a href="dr-vinay-koparkar.html">Dr. Vinay Koparkar</a></li>
-                            <li><a href="kavita_koparkar.html">Kavita Koparkar</a></li>
-                            <li><a href="press_releases.html">Press Releases</a></li>
-                        </ul>
-                    </li>
-                    <li class="dropdown">
-                        <a aria-expanded="false" aria-haspopup="true" role="button" data-toggle="dropdown disable" class="dropdown-toggle" href="#">Branches<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="ladies-beauty-parlour-kothrud-pune.html">Ladies Beauty Parlor</a></li>
-                            <li><a href="kavita-koparkar-studio-pune.html">KK Studio</a></li>
-                            <li><a href="hair-face-clinic-pune.html">Hair & Face Clinic</a></li>
-                            <li><a href="wigs_and_weaves.html">Papillon Wigs & Weaves</a></li>
-                        </ul>
-                    </li>
-                    <li class="active"><a href="ladies-beauty-parlour-services-kothrud-pune.html">Services</a></li>
-                    <li><a href="work_gallery.html">Work Gallery</a></li>
-                    <li><a href="courses.html">Courses</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-                </ul>
-            </div><!--/.nav-collapse -->
-        </div>
-    </nav>
-    <div class="banner8"></div>
-    <section class="about">
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-12">
-                    <h1 class="text-center">Services</h1>
-                </div>
-            </div>
-            <p> Services we offer for women</p>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="services">Haircut</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Hair Colour (Dye,  global colour)</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Highlighting</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Straightening</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="services">Rebonding</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Perming</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Hair Setting (Blow dry setting, Ironing, Curling, Roler Setting etc.)</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Threading</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="services">Facial (Herbal,  Fruit, Gold, Pearl etc.)</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Scrub</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Bleach</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Head Massage</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="services">Mehendi  Application</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Deep  Conditioning</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Waxing</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Manicure</div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="services">Pedicure</div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="services">Bridal Makeup</div>
-                </div>
-                
-            </div>
-            
+<body>
 
-        </div>
-    </section>
-    <section class="branches">
-        <div class="container">
-            <div class="text-center">
-                <div class="row">
-                    <div class="col-sm-12">
-                        <h3 class="text-center">Our Branches</h3>
+
+
+
+
+
+<section class="special">
+                 <div class="container">
+                    <div class="row"><br>
+                          <h2 class="spfont1 text-center">WOMEN'S SERVICES</h2><br>
+                          <div class="col-md-6">
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">FACIAL</h3>
+                                                                                    <li>
+                                                  <div class="as">Insta Glow Facial</div>
+                                                  <div class="as1">&#x20B9;2000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Normal Skin Facial</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Oily Skin Facial</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Sensitive Skin Facial</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dry Dehydreated Skin Facial</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Fairness / Whitening Facial</div>
+                                                  <div class="as1">&#x20B9;2000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Wrinkled Skin & Non Surgical Facial</div>
+                                                  <div class="as1">&#x20B9;2500</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">BODY BEAUTIFYING</h3>
+                                                                                    <li>
+                                                  <div class="as">Exfoliating Polishing</div>
+                                                  <div class="as1">&#x20B9;1600</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">BLEACHING</h3>
+                                                                                    <li>
+                                                  <div class="as">Neck</div>
+                                                  <div class="as1">&#x20B9;80</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Feet</div>
+                                                  <div class="as1">&#x20B9;130</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Face</div>
+                                                  <div class="as1">&#x20B9;210</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Front</div>
+                                                  <div class="as1">&#x20B9;280</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Back</div>
+                                                  <div class="as1">&#x20B9;280</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Arms Upto Elbow</div>
+                                                  <div class="as1">&#x20B9;190</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Full Arms</div>
+                                                  <div class="as1">&#x20B9;250</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Legs Upto Knee</div>
+                                                  <div class="as1">&#x20B9;170</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Full Legs</div>
+                                                  <div class="as1">&#x20B9;430</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Full Body</div>
+                                                  <div class="as1">&#x20B9;1300</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">BODY MASSAGE</h3>
+                                                                                    <li>
+                                                  <div class="as">Regular</div>
+                                                  <div class="as1">&#x20B9;450</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Ayurvedic</div>
+                                                  <div class="as1">&#x20B9;500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Powder</div>
+                                                  <div class="as1">&#x20B9;550</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Aroma</div>
+                                                  <div class="as1">&#x20B9;650</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Exfoliating Cream</div>
+                                                  <div class="as1">&#x20B9;750</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">HAND RADIANCE (MANICURE)</h3>
+                                                                                    <li>
+                                                  <div class="as">Regular</div>
+                                                  <div class="as1">&#x20B9;250</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">French</div>
+                                                  <div class="as1">&#x20B9;300</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Aroma Advance</div>
+                                                  <div class="as1">&#x20B9;350</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">LEG RADIANCE (PEDICURE)</h3>
+                                                                                    <li>
+                                                  <div class="as">Regular</div>
+                                                  <div class="as1">&#x20B9;300</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">French</div>
+                                                  <div class="as1">&#x20B9;350</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Aroma Advance</div>
+                                                  <div class="as1">&#x20B9;400</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">MAKEUP</h3>
+                                                                                    <li>
+                                                  <div class="as">Regular Make-Up</div>
+                                                  <div class="as1">&#x20B9;1000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Party Make-Up</div>
+                                                  <div class="as1">&#x20B9;2000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Engagement Make-Up</div>
+                                                  <div class="as1">&#x20B9;3500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Bridal Make-Up</div>
+                                                  <div class="as1">&#x20B9;5000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Groom Make-Up</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                   <h6>Rs.500 to 1500 Additional Charges For Make-Up 80 As Venue Charges</h6>
+
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">Oil Massage</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;350</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;450</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;550</div>
+                                            </li>
+                                           
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">HAIR FALL TREATMENT (Per Sitting)</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;1200</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;1800</div>
+                                            </li>
+                                                                                   <h6>Package (10+2 Sitting Free)</h6>
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">DANDRUFF TREATMENT</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;1200</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;1800</div>
+                                            </li>
+                                                                                   <h6>Package (10+2 Sitting Free)</h6>
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">DRY & DAMAGE HAIR TREATMENT (Per Sitting)</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;1200</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;2000</div>
+                                            </li>
+                                                                                   <h6>Package (10+2 Sitting Free)</h6>
+                                       </ul>
+                                 </div><br>
+
+                                 
+                          </div>
+
+
+                          <div class="col-md-6">
+                            <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">COLOR, DRY & DAMAGE HAIR POWERDOSE TREATMENT (Per Ampule)</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;1000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;1800</div>
+                                            </li>
+                                                                                   
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">FORCE VECTOR (Per Ampule)</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;900</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                   
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">EXPRESS SERVICE (BALM)</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;600</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;900</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;1300</div>
+                                            </li>
+                                                                                   
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">ADVANCE CELLULAR TREATMENT (RENEW C)</h3>
+                                                                                    <li>
+                                                  <div class="as">Short Hair</div>
+                                                  <div class="as1">&#x20B9;1600</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Medium Hair</div>
+                                                  <div class="as1">&#x20B9;3000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Long Hair</div>
+                                                  <div class="as1">&#x20B9;4500</div>
+                                            </li>
+                                                                                   
+                                       </ul>
+                                 </div><br>
+
+                                 <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        <h3 class="text-center">THREADING</h3>
+                                                                                    <li>
+                                                  <div class="as">Eyebrow</div>
+                                                  <div class="as1">&#x20B9;30</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Upper Lip</div>
+                                                  <div class="as1">&#x20B9;30</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Chin</div>
+                                                  <div class="as1">&#x20B9;30</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Forehead</div>
+                                                  <div class="as1">&#x20B9;30</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Jawline</div>
+                                                  <div class="as1">&#x20B9;30</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Full Face</div>
+                                                  <div class="as1">&#x20B9;110</div>
+                                            </li>
+                                                                                   
+                                       </ul>
+                                 </div><br>
+                                 
+                                <div class="ser2">
+                                      <ul>
+                                        <h3 class="text-center">WAXING</h3>
+                                        <li>
+                                                <div class="as3 text-center"><h4></h4></div>
+                                                <div class="as2 text-center"><h4>HONEY</h4></div>
+                                                <div class="as2 text-center"><h4>CHOCOLATE</h4></div>
+                                                <div class="as2 text-center"><h4>RICA WAX</h4></div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Upperlips</div>
+                                                <div class="as2">&#x20B9;30</div>
+                                                <div class="as2">&#x20B9;40</div>
+                                                <div class="as2">&#x20B9;60</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Chin</div>
+                                                <div class="as2">&#x20B9;30</div>
+                                                <div class="as2">&#x20B9;40</div>
+                                                <div class="as2">&#x20B9;60</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Jawline</div>
+                                                <div class="as2">&#x20B9;30</div>
+                                                <div class="as2">&#x20B9;40</div>
+                                                <div class="as2">&#x20B9;60</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Full Face</div>
+                                                <div class="as2">&#x20B9;120</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;220</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Under Arms</div>
+                                                <div class="as2">&#x20B9;60</div>
+                                                <div class="as2">&#x20B9;80</div>
+                                                <div class="as2">&#x20B9;120</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Half Arms</div>
+                                                <div class="as2">&#x20B9;80</div>
+                                                <div class="as2">&#x20B9;100</div>
+                                                <div class="as2">&#x20B9;180</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Full Arms</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;180</div>
+                                                <div class="as2">&#x20B9;280</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Half Leg</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;180</div>
+                                                <div class="as2">&#x20B9;250</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Full Leg</div>
+                                                <div class="as2">&#x20B9;200</div>
+                                                <div class="as2">&#x20B9;280</div>
+                                                <div class="as2">&#x20B9;400</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Stomach</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;180</div>
+                                                <div class="as2">&#x20B9;280</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Front Body</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;180</div>
+                                                <div class="as2">&#x20B9;280</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Half Back Body</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;180</div>
+                                                <div class="as2">&#x20B9;280</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Half Front Body</div>
+                                                <div class="as2">&#x20B9;200</div>
+                                                <div class="as2">&#x20B9;300</div>
+                                                <div class="as2">&#x20B9;400</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Full Back Body</div>
+                                                <div class="as2">&#x20B9;200</div>
+                                                <div class="as2">&#x20B9;300</div>
+                                                <div class="as2">&#x20B9;400</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Full Bikini Line</div>
+                                                <div class="as2">&#x20B9;100</div>
+                                                <div class="as2">&#x20B9;150</div>
+                                                <div class="as2">&#x20B9;220</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Brazilian</div>
+                                                <div class="as2">&#x20B9;600</div>
+                                                <div class="as2">&#x20B9;800</div>
+                                                <div class="as2">&#x20B9;1000</div>
+                                           </li>
+                                                                                   <li>
+                                                <div class="as3">Full Body</div>
+                                                <div class="as2">&#x20B9;900</div>
+                                                <div class="as2">&#x20B9;1500</div>
+                                                <div class="as2">&#x20B9;2000</div>
+                                           </li>
+                                                                              </ul>
+                                </div><br>
+
+                                <div class="ser1">
+                                       <ul style="list-style: none;">
+                                        
+                                                                                    <li>
+                                                  <div class="as">Clean Up With Exfoliation</div>
+                                                  <div class="as1">&#x20B9;350</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Basic Facial</div>
+                                                  <div class="as1">&#x20B9;500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Fresh Fruit Facial</div>
+                                                  <div class="as1">&#x20B9;700</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Organic Facial</div>
+                                                  <div class="as1">&#x20B9;1300</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Vitamin 7' Facial</div>
+                                                  <div class="as1">&#x20B9;1000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Sensiderma Facial</div>
+                                                  <div class="as1">&#x20B9;1100</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Anti Sebo Facial</div>
+                                                  <div class="as1">&#x20B9;1000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Pure White Facial</div>
+                                                  <div class="as1">&#x20B9;1250</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Phytowhite</div>
+                                                  <div class="as1">&#x20B9;1300</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Tan Removal Facial</div>
+                                                  <div class="as1">&#x20B9;1050</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Flawless Skin</div>
+                                                  <div class="as1">&#x20B9;1500</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Firming</div>
+                                                  <div class="as1">&#x20B9;2000</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Gold Series</div>
+                                                  <div class="as1">&#x20B9;1800</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Dynamic Gold Series</div>
+                                                  <div class="as1">&#x20B9;2100</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Metallic Pearl</div>
+                                                  <div class="as1">&#x20B9;1900</div>
+                                            </li>
+                                                                                    <li>
+                                                  <div class="as">Metallic Diamond</div>
+                                                  <div class="as1">&#x20B9;2200</div>
+                                            </li>
+                                                                                   
+                                       </ul>
+                                 </div>
+                          </div>
                     </div>
-                </div>
-                <div class="row">
-                    <div class="col-sm-6 col-md-3">
-                        <a href="ladies-beauty-parlour-kothrud-pune.html">
-                            <div class="image"><img src="images/profile1.jpg" /></div>
-                            <div class="pro-line">Ladies Beauty Parlour</div>
-                        </a>
-                        <ul>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="ladies-beauty-parlour-kothrud-pune.html">Haircut / Hairstyle</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="ladies-beauty-parlour-kothrud-pune.html">Facial / Scrub / Bleach</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="ladies-beauty-parlour-kothrud-pune.html">Waxing / Manicure / Pedicure</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="ladies-beauty-parlour-kothrud-pune.html">Bridal Makeup</a></li>
-                        </ul>
-                        <div class="visit"><a href="ladies-beauty-parlour-kothrud-pune.html" target="_blank">Visit Page</a></div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <a href="kkstudio.html">
-                            <div class="image"><img src="images/profile2.jpg" /></div>
-                            <div class="pro-line">KK Studio</div>
+                 </div>
+            </section>
 
-                        </a>
-                        <ul>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.kavitakoparkar.com/about-kavita-koparkar.html" target="_blank">About Kavita Koparkar</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.kavitakoparkar.com/kkstudio.html" target="_blank">About KK Studio</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.kavitakoparkar.com/bridal-packages.html" target="_blank">Bridal Packages</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.kavitakoparkar.com/courses-offered.html" target="_blank">The KK Academy</a></li>
-                        </ul>
-                        <div class="visit"><a href="http://www.kavitakoparkar.com/" target="_blank">Visit Website</a></div>
-                    </div>
-                    <div class="clearfix visible-sm-block"></div>
-                    <div class="col-sm-6 col-md-3">
-                        <a href="hair-face-clinic-pune.html">
-                            <div class="image"><img src="images/profile3.jpg" /></div>
-                            <div class="pro-line">Hair & Face Clinic</div>
 
-                        </a>
-                        <ul>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="hair-face-clinic-pune.html">Hair Care Services</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="hair-face-clinic-pune.html">Hair Loss Treatments</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="hair-face-clinic-pune.html">Pimples / Acne Treatments</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="hair-face-clinic-pune.html">Pigmentation Treatments</a></li>
-                        </ul>
-                        <div class="visit"><a href="hair-face-clinic-pune.html" target="_blank">Visit Page</a></div>
-                    </div>
-                    <div class="col-sm-6 col-md-3">
-                        <a href="wigs_and_weaves.html">
-                            <div class="image"><img src="images/profile4.jpg" /></div>
-                            <div class="pro-line">Papillon Wigs and Weaves</div>
-
-                        </a>
-                        <ul>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.papillonwigsandweaves.com/hair-loss-treatment.html" target="_blank">Hair Loss / Hair Care</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.papillonwigsandweaves.com/hair_weaving_bonding_for_men.html" target="_blank">Non-Surgical Hair Replacement</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.papillonwigsandweaves.com/hair-transplant-for-men.html" target="_blank">Hair Transplant</a></li>
-                            <li><span><i class="fa fa-check-square-o"></i></span><a href="http://www.papillonwigsandweaves.com/hair_wigs_for_chemotherapy_patients.html" target="_blank">Hair Wigs</a></li>
-                        </ul>
-                        <div class="visit"><a href="http://papillonwigsandweaves.com/" target="_blank">Visit Website</a></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="sm-logo"><a href="index.html"><img src="images/small-logo.png" /></a></div>
-                </div>
-                <div class="col-sm-6">
-                    <div class="text-center mrg-top">Papillonsalons &copy; 2016. <a href="http://www.on-click.in/services/design/website-designing.html" target="_blank">Website Designing</a> by <a href="http://www.on-click.in/" target="_blank">Onclick</a>.</div>
-                </div>
-                <div class="col-sm-3">
-                    <ul class="social">
-                        <li><a href="https://www.facebook.com/KavitaKoparkarBridalMakeup" target="_blank"><i class="fa fa-facebook"></i></a></li>
-                        <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-
-                    </ul>
-                </div>
-
-            </div>
-        </div>
-    </footer>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/lightbox.min.js"></script>
-    <script>
-        $(".branches ul li").hover(function () {
-            $(this).find("a").addClass("animated pulse");
-        }, function () {
-            $(this).find("a").removeClass("animated pulse");
-        });
-    </script>
-</body>
+            </body>
 </html>

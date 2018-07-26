@@ -16,7 +16,7 @@ $adminpass= $_POST['apass'];
 if($adminpass == "admin" && $adminpass=="admin")
 {
 
-	header('location:View/Dashboard.php');
+	header('location:../View/Dashboard.php');
 }
 else
 {

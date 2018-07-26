@@ -103,7 +103,7 @@
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
             <img id="profile-img" class="profile-img-card" src="img/admin.jpg" />
             <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin" method="post" action="adminlogin.php">
+            <form class="form-signin" method="post" action="php/adminlogin.php">
                 <span id="reauth-email" class="reauth-email"></span>
                 <input type="text"  class="form-control" placeholder="User Name" name="aemail" required autofocus>
                 <input type="password"  class="form-control" placeholder="Password" name="apass" required>
@@ -119,6 +119,32 @@
             </a>
         </div><!-- /card-container -->
 
+
+
+ <div class="card card-container">
+          
+          
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="img/.jpg" />
+            <p id="profile-name" class="profile-name-card"></p>
+            <form class="form-signin" method="post" action="php/userlogin.php">
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="text"  class="form-control" placeholder="User Name" name="aemail" required autofocus>
+                <input type="password"  class="form-control" placeholder="Password" name="apass" required>
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">User Sign in</button>
+            </form><!-- /form -->
+            <a href="#" class="forgot-password">
+                Forgot the password?
+            </a>
+        </div><!-- /card-container -->
+
+
+  </div><!-- /container -->
 
         
     <!-- /.row -->

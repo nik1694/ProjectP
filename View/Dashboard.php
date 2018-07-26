@@ -1,3 +1,10 @@
+
+
+
+
+
+
+
 <?php
 
 
@@ -6,5 +13,6 @@
 
 
 
-echo'Hello Admin ';
+echo'<h1> Welcome Admin </h1>';
+
 ?>

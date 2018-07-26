@@ -68,9 +68,9 @@
                 Other
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="feedback.html">Feedback</a>
+                <a class="dropdown-item" href="HTML/feedback.html">Feedback</a>
                 <a class="dropdown-item" href="LoginPage.php">Login</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">Contact Us</a>
+                <a class="dropdown-item" href="HTML/contact.html">Contact Us</a>
                 <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
                 <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
               </div>
@@ -91,7 +91,7 @@
           </div>
           <div class="col-lg-8 mx-auto">
             <p class="text-faded mb-5">We are committed to make you Feel Special by adhering to provide excellence in service, business & relationship in an environment full of positive energy exceeding the expectations of our clients, community.</p>
-            <a class="btn btn-primary btn-xl js-scroll-trigger" href="errorpage.html">Find Out More</a>
+            <a class="btn btn-primary btn-xl js-scroll-trigger" href="HTML/errorpage.html">Find Out More</a>
           </div>
         </div>
       </div>
@@ -174,12 +174,9 @@
             <img class="card-img-top" src="img/b1.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Hair Care</h4>
-              <p class="card-text">Our extensive range of hair care packages are designed to treat hair problems, while nourishing them from the root. Our hair care experts tame unruly tresses and style hair in a way that works well with its natural flow.</p>
+              <p class="card-text"></p>
             </div>
-            <div class="card-footer">
-              <a  class="btn btn-primary" href="https://www.google.co.in/search?biw=1366&bih=654&tbm=isch&sa=1&ei=B09CW4HaGYrlvATHz6OoCg&q=+girls+hair+style&oq=+girls+hair+style&gs_l=img.3..0l3j0i10k1j0l6.168.1943.0.4359.5.5.0.0.0.0.242.1018.0j1j4.5.0....0...1c.1.64.img..0.5.1012...0i7i30k1j0i7i10i30k1.0.QpEMA4nZjbc">Find Out More!</a>
-
-            </div>
+            
           </div>
 </div>
 
@@ -189,11 +186,9 @@
             <img class="card-img-top" src="img/b2.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Skin Care</h4>
-              <p class="card-text">At Naturals, our skin care experts ensure your skin is detoxified, refreshed and most importantly pampered! Our natural skin care treatments provide you with healthy, glowing skin.</p>
+              <p class="card-text"></p>
             </div>
-            <div class="card-footer">
-              <a href="https://www.google.co.in/search?biw=1366&bih=654&tbm=isch&sa=1&ei=E09CW_K3IceLvQS84IuYDg&q=girls+skin+care&oq=girls+skin+care&gs_l=img.3..0.99137.104429.0.105677.19.13.0.2.2.0.247.1840.0j3j6.9.0....0...1c.1.64.img..8.11.1879...35i39k1j0i67k1j0i10k1j0i8i30k1.0.2BbtH9GiHg0" class="btn btn-primary">Find Out More!</a>
-            </div>
+            
           </div>
 </div>
 
@@ -203,11 +198,9 @@
             <img class="card-img-top" src="img/b3.jpg" alt="">
             <div class="card-body">
               <h4 class="card-title">Body Care</h4>
-              <p class="card-text">Tiring week at work? De-stress and rejuvenate at Naturals! Our body care experts are well trained in helping you detox.</p>
+              <p class="card-text"></p>
             </div>
-            <div class="card-footer">
-              <a href="#" class="btn btn-primary">Find Out More!</a>
-            </div>
+           
           </div>
 </div>
 
@@ -324,10 +317,6 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-lg-4 ml-auto text-center">
-            <i class="fa fa-home fa-3x mb-3 sr-contact"></i>
-            <p>97, Kakkad Leyout,<br> Behind Hariom Coloney,<br>Sai Nagar,<br> Amravati, 444607</p>
-          </div>
 
           <div class="col-lg-4 ml-auto text-center">
             <i class="fa fa-phone fa-3x mb-3 sr-contact"></i>
@@ -348,6 +337,17 @@
        
     </section>
 
+
+
+
+
+   <!-- Footer -->
+    <footer class="py-5 bg-dark">
+      <div class="container">
+        <p class="m-0 text-right text-white">Copyright &copy; www.unikworld.com 2018</p>
+      </div>
+      <!-- /.container -->
+    </footer>
 
 
     <!-- Bootstrap core JavaScript -->
