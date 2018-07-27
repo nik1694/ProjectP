@@ -59,18 +59,18 @@
                 Services
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="feedback.html">Simple</a>
+                <a class="dropdown-item" href="">Simple</a>
                 <a class="dropdown-item" href="">Makeup</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">Bridal</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">Body Care</a>
-                <a class="dropdown-item" href="portfolio-item.html">Example</a>
+                <a class="dropdown-item" href="">Bridal</a>
+                <a class="dropdown-item" href="">Body Care</a>
+                <a class="dropdown-item" href="">Example</a>
               </div>
             </li>
             <li class="nav-item">
               <a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+              <a class="nav-link js-scroll-trigger" href="HTML/contact.html">Contact</a>
             </li>
             
             <li class="nav-item dropdown">
@@ -78,9 +78,9 @@
                 Other
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="feedback.html">Feedback</a>
+                <a class="dropdown-item" href="HTML/feedback.html">Feedback</a>
                 <a class="dropdown-item" href="#">Login</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">Contact Us</a>
+                <a class="dropdown-item" href="HTML/contact.html">Contact Us</a>
                 <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
                 <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
               </div>
@@ -103,6 +103,7 @@
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
             <img id="profile-img" class="profile-img-card" src="img/admin.jpg" />
             <p id="profile-name" class="profile-name-card"></p>
+            
             <form class="form-signin" method="post" action="php/adminlogin.php">
                 <span id="reauth-email" class="reauth-email"></span>
                 <input type="text"  class="form-control" placeholder="User Name" name="aemail" required autofocus>
@@ -118,32 +119,6 @@
                 Forgot the password?
             </a>
         </div><!-- /card-container -->
-
-
-
- <div class="card card-container">
-          
-          
-            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
-            <img id="profile-img" class="profile-img-card" src="img/.jpg" />
-            <p id="profile-name" class="profile-name-card"></p>
-            <form class="form-signin" method="post" action="php/userlogin.php">
-                <span id="reauth-email" class="reauth-email"></span>
-                <input type="text"  class="form-control" placeholder="User Name" name="aemail" required autofocus>
-                <input type="password"  class="form-control" placeholder="Password" name="apass" required>
-                <div id="remember" class="checkbox">
-                    <label>
-                        <input type="checkbox" value="remember-me"> Remember me
-                    </label>
-                </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit">User Sign in</button>
-            </form><!-- /form -->
-            <a href="#" class="forgot-password">
-                Forgot the password?
-            </a>
-        </div><!-- /card-container -->
-
-
   </div><!-- /container -->
 
         

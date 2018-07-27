@@ -1,0 +1,42 @@
+<form method="post" action="php/feedback.php">
+                    <div class="form-group ">
+                      <label class="control-label requiredField" for="cname">
+                      Enter Name <span class="asteriskField"> * </span>
+                      </label> <input required="true" class="form-control" id="cname" name="cname"
+                        placeholder="Enter your Name" type="text"  /> <span
+                        class="help-block" id="hint_txtName">  </span>
+                    </div><br>
+                    <div class="form-group ">
+                      <label class="control-label requiredField" for="cemail">
+                      Enter Email<span class="asteriskField"> * </span>
+                      </label> <input required="true" class="form-control"  id="cemail" name="cemail"
+                        placeholder="Enter your Email" type="email"  /> <span
+                        class="help-block" id="hint_txtName"> </span>
+                     </div><br>
+
+                        <div class="form-group ">
+                      <label class="control-label requiredField" for="cphone">
+                        Enter Phone Number <span class="asteriskField"> * </span>
+                      </label> <input required="false" class="form-control" id="cphone" name="cphone"
+                        placeholder="Enter Phone Number" type="text" /> <span
+                        class="help-block" id="hint_txtExp">  </span>
+                    </div><br>
+                    
+                    
+                    <div class="form-group ">
+                      <label class="control-label requiredField" for="cfeedback">
+                        Feedback <span class="asteriskField"> * </span>
+                      </label> <input required="false" class="form-control" id="cfeedback" name="cfeedback"
+                        placeholder ="Enter your Feedback for our services" type="textarea" /> <span
+                        class="help-block" id="hint_txtExp"></span>
+                    </div><br>
+                    
+                    <div class="form-group">
+                      <div>
+
+
+                        <button class="btn btn-primary btn-xl js-scroll-trigger" name="submit" type="submit">
+                          Submit</button>
+                      </div>
+                    </div>
+                  </form>
