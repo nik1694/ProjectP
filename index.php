@@ -15,6 +15,8 @@
 
 
     <link rel="icon" href="http://example.com/favicon.png">
+    
+
     <link href="css/modern-business.css" rel="stylesheet">
 
     <!-- Custom fonts for this template -->
@@ -42,18 +44,18 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="index.php">About</a>
+              <a class="nav-link js-scroll-trigger " href="HTML/about.html">About</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownlist" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                 Services
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="feedback.html">Simple</a>
+                <a class="dropdown-item" href="">Simple</a>
                 <a class="dropdown-item" href="">Makeup</a>
-                <a class="dropdown-item" href="portfolio-3-col.html">Bridal</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">Body Care</a>
-                <a class="dropdown-item" href="portfolio-item.html">Example</a>
+                <a class="dropdown-item" href="">Bridal</a>
+                <a class="dropdown-item" href="">Body Care</a>
+                <a class="dropdown-item" href="">Example</a>
               </div>
             </li>
             <li class="nav-item">
@@ -71,8 +73,8 @@
                 <a class="dropdown-item" href="HTML/feedback.html">Feedback</a>
                 <a class="dropdown-item" href="LoginPage.php">Login</a>
                 <a class="dropdown-item" href="HTML/contact.html">Contact Us</a>
-                <a class="dropdown-item" href="portfolio-4-col.html">4 Column Portfolio</a>
-                <a class="dropdown-item" href="portfolio-item.html">Single Portfolio Item</a>
+                <a class="dropdown-item" href="">Add</a>
+                <a class="dropdown-item" href="">Add</a>
               </div>
             </li>
           </ul>

@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,7 +10,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Login</title>
+    <title>Register</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -42,10 +44,8 @@
 
   <body style="background-image: url('img/header.jpg');">
 
-
- <header >
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
       <div class="container">
         <a class="navbar-brand" href="../index.php"><i>Saundrya Beauty Care</i></a>
        
@@ -100,37 +100,41 @@
       </div>
     </nav>
 
-   
+    <header >
 
         
     </header>
 
 
  <div class="container " id="signinbox">
-        <div class="card card-container">
+       <div class="card card-container  " id="regbox">
           
           
             <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
             <img id="profile-img" class="profile-img-card" src="img/log.png" />
             <p id="profile-name" class="profile-name-card"></p>
             
-            <form class="form-signin" method="post" action="php/userlogin.php">
+            <form class="form-signin" method="post" action="php/registeruser.php">
                 <span id="reauth-email" class="reauth-email"></span>
+                <input type="text"  class="form-control" placeholder="User Name" name="uname" required autofocus>
                 <input type="email"  class="form-control" placeholder="User Email" name="uemail" required autofocus>
                 <input type="password"  class="form-control" placeholder="Password" name="upass" required>
+                 <input type="password"  class="form-control" placeholder="Confirm Password" name="cupass" required>
+
                 <div id="remember" class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" > SIGN IN </button>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="register">SIGN UP</button>
             </form><!-- /form -->
-           <p>
-                Not Register?  <a href ="RegisterPage.php"  class="forgot-password">Click here to Reg.
+            <p>
+                Already Register..?<a href="LoginPage.php"  class="forgot-password"> Sign in.
             </a>
         </p>
         </div><!-- /card-container -->
-     </div><!-- /container -->
+
+  </div><!-- /container -->
 
         
     <!-- /.row -->
@@ -176,3 +180,8 @@ function reg() {
   </body>
 
 </html>
+
+
+
+
+

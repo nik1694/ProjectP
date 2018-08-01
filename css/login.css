@@ -1,4 +1,14 @@
+
 /* Form */
+
+
+.dummy{
+
+display: none;
+
+
+
+}
 .form {
   position: relative;
   z-index: 1;
