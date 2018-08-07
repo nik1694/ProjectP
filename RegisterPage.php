@@ -1,5 +1,7 @@
 
 
+<?php include('php/server.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -17,6 +19,10 @@
 
 <link rel="stylesheet" href="css/login.css">
 <link rel="stylesheet" href="css/loginpage.css">
+
+
+<link   rel="shortcut icon" href="favicon.ico"  type="image/png" />
+
 
 
 <script
@@ -47,7 +53,7 @@
     <!-- Navigation -->
    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="../index.php"><i>Saundrya Beauty Care</i></a>
+        <a class="navbar-brand" href="index.php"><i>Saundrya Beauty Care</i></a>
        
 
 
@@ -88,8 +94,8 @@
                 
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="./feedback.html">Feedback</a>
-                <a class="dropdown-item" href="../LoginPage.php">Login</a>
+                <a class="dropdown-item" href="HTML/feedback.html">Feedback</a>
+                <a class="dropdown-item" href="LoginPage.php">Login</a>
                 <a class="dropdown-item" href="HTML/contact.html">Contact Us</a>
                 <a class="dropdown-item" href=""></a>
                 <a class="dropdown-item" href=""></a>

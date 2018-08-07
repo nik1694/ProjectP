@@ -12,9 +12,12 @@
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+     <link rel="stylesheet" href="css/errorpage.css" media="all" type="text/css">
 
 
-    <link rel="icon" href="http://example.com/favicon.png">
+    
+    <link   rel="shortcut icon" href="favicon.ico"  type="image/png" />
+
     
 
     <link href="css/modern-business.css" rel="stylesheet">
@@ -47,7 +50,7 @@
               <a class="nav-link js-scroll-trigger " href="HTML/about.html">About</a>
             </li>
             <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownlist" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownlist" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
                 Services
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
@@ -346,10 +349,23 @@
    <!-- Footer -->
     <footer class="py-5 bg-dark">
       <div class="container">
+        <div class="icons">
+    <p class="left">follow us:</p>
+  <ul class="left">
+    <li><a href="#"><img src="img/error/rss.png" alt="" /></a></li>
+    <li><a href="#"><img src="img/error/twt.png" alt="" /></a></li>
+    <li><a href="#"><img src="img/error/plus.png" alt="" /></a></li>
+    <li><a href="#"><img src="img/error/in.png" alt="" /></a></li>
+    <li><a href="#"><img src="img/error/fb.png" alt="" /></a></li>
+  </ul>
+    <div class="clear"></div>
+  </div>
         <p class="m-0 text-right text-white">Copyright &copy; www.unikworld.com 2018</p>
       </div>
       <!-- /.container -->
     </footer>
+
+   
 
 
     <!-- Bootstrap core JavaScript -->
