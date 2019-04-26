@@ -38,7 +38,7 @@
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top"><i>Saundrya Beauty Care</i></a>
         <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -54,7 +54,7 @@
                 Services
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="">Simple</a>
+                <a class="dropdown-item" href="HTML/productgallary.html">Product</a>
                 <a class="dropdown-item" href="">Makeup</a>
                 <a class="dropdown-item" href="">Bridal</a>
                 <a class="dropdown-item" href="">Body Care</a>
@@ -74,7 +74,7 @@
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
                 <a class="dropdown-item" href="HTML/feedback.html">Feedback</a>
-                <a class="dropdown-item" href="LoginPage.php">Login</a>
+                <a class="dropdown-item" href="login.php">Login</a>
                 <a class="dropdown-item" href="HTML/contact.html">Contact Us</a>
                 <a class="dropdown-item" href="">Add</a>
                 <a class="dropdown-item" href="">Add</a>
@@ -84,7 +84,6 @@
         </div>
       </div>
     </nav>
-
     <header class="masthead text-center text-white d-flex">
           <div class="container my-auto">
         <div class="row">

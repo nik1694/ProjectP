@@ -30,4 +30,18 @@ header('location:../View/thanks.php');
 
 //header('location:index.php');
 
+
+
+
+$sql = "select cname,cemail,cphone,cfeedback from feedback";
+$result = $conn->query($sql);
+$output = array();
+$output = $result->fetch_all(MYSQLI_ASSOC);
+echo json_encode($output);
+
+
+
+
+
+
 ?>

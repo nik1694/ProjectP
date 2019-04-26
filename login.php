@@ -1,5 +1,5 @@
 
-<?php include('php/server.php') ?>
+<?php include('server.php') ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -120,19 +120,20 @@
             <img id="profile-img" class="profile-img-card" src="img/log.png" />
             <p id="profile-name" class="profile-name-card"></p>
             
-            <form class="form-signin" method="post" action="php/userlogin.php">
+            <form class="form-signin" method="post" action="login.php">
+            <?php include('errors.php'); ?>
                 <span id="reauth-email" class="reauth-email"></span>
-                <input type="email"  class="form-control" placeholder="User Email" name="uemail" required autofocus>
-                <input type="password"  class="form-control" placeholder="Password" name="upass" required>
+                <input type="text"  class="form-control" placeholder="User Name "  name="username" required autofocus>
+                <input type="password"  class="form-control" placeholder="Password" name="password" required>
                 <div id="remember" class="checkbox">
                     <label>
                         <input type="checkbox" value="remember-me"> Remember me
                     </label>
                 </div>
-                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" > SIGN IN </button>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="login_user" > SIGN IN </button>
             </form><!-- /form -->
            <p>
-                Not Register?  <a href ="RegisterPage.php"  class="forgot-password">Click here to Reg.
+                Not Register?  <a href ="register.php"  class="forgot-password">Click here to Reg.
             </a>
         </p>
         </div><!-- /card-container -->

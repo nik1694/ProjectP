@@ -1,3 +1,9 @@
+
+
+
+
+<?php include('server.php') ?>
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -8,19 +14,26 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Sidebar</title>
+    <title>Register</title>
 
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
+<link rel="stylesheet" href="css/login.css">
+<link rel="stylesheet" href="css/loginpage.css">
+
+
+<link   rel="shortcut icon" href="favicon.ico"  type="image/png" />
+
+
+
+<script
+  src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script
+  src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <link rel="icon" href="http://example.com/favicon.png">
     <link href="css/modern-business.css" rel="stylesheet">
-
-
-
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <link rel="stylesheet" href="css/errorpage.css" media="all" type="text/css">
 
     <!-- Custom fonts for this template -->
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
@@ -34,14 +47,15 @@
     <link href="css/creative.min.css" rel="stylesheet">
 
 
+
   </head>
 
-  <body>
+  <body style="background-image: url('img/header.jpg');">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top " id="mainNav">
       <div class="container">
-        <a class="navbar-brand" href="../index.php"><i>Saundrya Beauty Care</i></a>
+        <a class="navbar-brand" href="index.php"><i>Saundrya Beauty Care</i></a>
        
 
 
@@ -82,9 +96,9 @@
                 
               </a>
               <div class="dropdown-menu dropdown-menu-right" aria-labelledby="navbarDropdownPortfolio">
-                <a class="dropdown-item" href="./feedback.html">Feedback</a>
-                <a class="dropdown-item" href="../LoginPage.php">Login</a>
-                <a class="dropdown-item" href="./contact.html">Contact Us</a>
+                <a class="dropdown-item" href="HTML/feedback.html">Feedback</a>
+                <a class="dropdown-item" href="login.php">Login</a>
+                <a class="dropdown-item" href="HTML/contact.html">Contact Us</a>
                 <a class="dropdown-item" href=""></a>
                 <a class="dropdown-item" href=""></a>
               </div>
@@ -94,76 +108,75 @@
       </div>
     </nav>
 
-    <!-- Page Content -->
-    <div class="container">
+    <header >
 
-      <!-- Page Heading/Breadcrumbs -->
-      <h1 class="mt-4 mb-3">Sidebar Page
-        <small></small>
-      </h1>
+        
+    </header>
 
-      <ol class="breadcrumb">
-        <li class="breadcrumb-item">
-          <a href="index.html">Home</a>
-        </li>
-        <li class="breadcrumb-item active">About</li>
 
-      </ol>
-
-      <!-- Content Row -->
-      <div class="row">
-        <!-- Sidebar Column -->
-        <div class="col-lg-3 mb-4">
-          <div class="list-group">
-            <a href="index.html" class="list-group-item" >Home</a>
-            <a href="#" class="list-group-item">About</a>
-            <a href="services.html" class="list-group-item">Services</a>
-            <a href="contact.html" class="list-group-item">Contact</a>
-            <a href="blog-home-1.html" class="list-group-item">Blog Home 1</a>
-            <a href="blog-home-2.html" class="list-group-item">Blog Home 2</a>
-            <a href="blog-post.html" class="list-group-item">Blog Post</a>
-            <a href="full-width.html" class="list-group-item">Full Width Page</a>
-            <a href="sidebar.html" class="list-group-item active">Sidebar Page</a>
-            <a href="faq.html" class="list-group-item">FAQ</a>
+ <div class="container " id="signinbox">
+       <div class="card card-container  " id="regbox">
+          
+          
+            <!-- <img class="profile-img-card" src="//lh3.googleusercontent.com/-6V8xOA6M7BA/AAAAAAAAAAI/AAAAAAAAAAA/rzlHcD0KYwo/photo.jpg?sz=120" alt="" /> -->
+            <img id="profile-img" class="profile-img-card" src="img/log.png" />
+            <p id="profile-name" class="profile-name-card"></p>
             
-            <a href="pricing.html" class="list-group-item">Pricing Table</a>
-            <a href="404.html" class="list-group-item">Logout</a>
-          </div>
-        </div>
-        <!-- Content Column -->
-        <div class="col-lg-9 mb-4">
-          <h2>Home  </h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, et temporibus, facere perferendis veniam beatae non debitis, numquam blanditiis necessitatibus vel mollitia dolorum laudantium, voluptate dolores iure maxime ducimus fugit.</p>
-        </div>
+            <form class="form-signin" method="post" action="register.php">
+            <?php include('errors.php'); ?>
 
 
-      </div>
-      <!-- /.row -->
+                <span id="reauth-email" class="reauth-email"></span>
+                <input type="text"  class="form-control" placeholder="User Name" name="username" value="<?php echo $username; ?>" required autofocus>
+                <input type="email"  class="form-control" placeholder="User Email"  name="email" value="<?php echo $email; ?>" required autofocus>
+                <input type="password"  class="form-control" placeholder="Password" name="password_1" required>
+                 <input type="password"  class="form-control" placeholder="Confirm Password" name="password_2" required>
 
-    </div>
-    <!-- /.container -->
+                <div id="remember" class="checkbox">
+                    <label>
+                        <input type="checkbox" value="remember-me"> Remember me
+                    </label>
+                </div>
+                <button class="btn btn-lg btn-primary btn-block btn-signin" type="submit" name="reg_user">SIGN UP</button>
+            </form><!-- /form -->
+            <p>
+                Already Register..?<a href="login.php"  class="forgot-password"> Sign in.
+            </a>
+        </p>
+        </div><!-- /card-container -->
 
-   <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <div class="icons">
-    <p class="left">follow us:</p>
-  <ul class="left">
-    <li><a href="#"><img src="img/error/rss.png" alt="" /></a></li>
-    <li><a href="#"><img src="img/error/twt.png" alt="" /></a></li>
-    <li><a href="#"><img src="img/error/plus.png" alt="" /></a></li>
-    <li><a href="#"><img src="img/error/in.png" alt="" /></a></li>
-    <li><a href="#"><img src="img/error/fb.png" alt="" /></a></li>
-  </ul>
-    <div class="clear"></div>
-  </div>
-        <p class="m-0 text-right text-white">Copyright &copy; www.unikworld.com 2018</p>
-      </div>
-      <!-- /.container -->
-    </footer>
+  </div><!-- /container -->
+
+        
+    <!-- /.row -->
 
 
-    <!-- Bootstrap core JavaScript -->
+<?php
+
+/*
+<script>
+function login() {
+    if (document.getElementById("signinbox")) {
+        document.getElementById("regbox").style.display="block";
+    } else {
+        document.getElementById("signinbox").style.display="none";
+    }
+}
+
+function reg() {
+    if (document.getElementById("regbox")) {
+       //document.getElementById("signinbox").style.display="block";
+    } else {
+        document.getElementById("regbox").style.display="none";
+    }
+}
+
+</script>  
+
+*/
+?>
+
+ <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -178,3 +191,8 @@
   </body>
 
 </html>
+
+
+
+
+

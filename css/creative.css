@@ -234,6 +234,8 @@ header.masthead p {
   position: relative;
   display: block;
   max-width: 650px;
+  height: 300px;
+ 
   margin: 0 auto;
 }
 
@@ -246,7 +248,7 @@ header.masthead p {
   text-align: center;
   opacity: 0;
   color: #fff;
-  background: rgba(240, 95, 64, 0.9);
+  background: rgba(240, 64, 202, 0.9);
   -webkit-transition: all 0.2s;
   -moz-transition: all 0.2s;
   transition: all 0.2s;
